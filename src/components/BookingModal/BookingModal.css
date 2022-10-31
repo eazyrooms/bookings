@@ -1,0 +1,23 @@
+.my-flow{
+    overflow-x: hidden;
+}
+/* li{
+    list-style-type: none;
+} */
+.my-bg{
+    background-color: #ffefbe;
+    border-radius: 10px;
+}
+/* .my-ul{
+    list-style-type: circle;
+} */
+
+.canvas-img{
+    border-radius: 10px;
+}
+::-webkit-scrollbar{
+    width: 10px;
+}
+.modal-height {
+    height: 100%;
+  }
