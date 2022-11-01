@@ -15,3 +15,7 @@ label:focus,
     -webkit-appearance:none;
     box-shadow: none !important;
 }
+
+body{
+    font-family: 'Manrope', sans-serif;
+}
