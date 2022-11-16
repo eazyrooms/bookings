@@ -1,0 +1,47 @@
+.my-carousel {
+    height: 350px;
+    border-radius: 10px !important;
+
+}
+.my-margin-room{
+    margin-top:130px
+}
+.color-hex{
+    color:#FEC629
+}
+
+
+
+.my-anim{
+    animation: 1s ease-out 0s 1 slideInLeft;
+    /* background: #666; */
+    padding: 40px;
+  }
+
+  @keyframes slideInLeft {
+    0% {
+      transform: translateX(+100%);
+    }
+    100% {
+      transform: translateX(0);
+    }
+  }
+
+
+
+  html:not(.no-js) [data-aos^=fade][data-aos^=fade] {
+    opacity: 1 !important;
+    transition-property: opacity,-webkit-transform !important;
+    transition-property: opacity,transform !important;
+    transition-property: opacity,transform,-webkit-transform !important;
+}
+
+
+[data-aos] {
+  pointer-events: none;
+}
+
+html:not(.no-js) [data-aos=fade-left] {
+  -webkit-transform: translate3d(100px,0,0) !important;
+  transform: translate3d(100px,0,0) !important;
+}
